@@ -33,12 +33,12 @@ font-size: 30px
 }
 
 h2 {
- text-aling: center;
+ text-align: center;
 }
 
 ul {
  display: inline-block;
- vertical-aling: top; 
+ vertical-align: top; 
  width: 20%;
  margin-right: 15%;
 }
@@ -48,22 +48,15 @@ ul {
 }
   
 #banner { 
- width: 40% ;
-}
-
- 
-  font-size: 30px
-}
-#banner { 
-width: 50%;
+ width: 50% ;
 }
 
 .titulo-principal { 
- padding- left: 20px;
+ padding-left: 20px;
 }
 
 .titulo-centralizado { 
- text-aling : center 
+ text-align : center 
 }
 
 header { 
@@ -83,14 +76,22 @@ nav li {
 }
 
 nav a { 
-text-transform: uppercase; }
+text-transform: uppercase; 
   color: #000000;
   font-weight: bold;
   font-size: 22px;
   text-decoration: none;
 } 
 
-. informações li{
+.informacoes {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.informações li{
   display: inline-block;
   text-align:center; 
   width:30%;
@@ -101,49 +102,37 @@ text-transform: uppercase; }
   box-sizing: border-box;
 }
 
-. informacoes {
-  width: 940px; 
-  margin: 0 auto;
-  padding:50px 0;
-}
-
-. informacoes h2 { 
+.informacoes h2 { 
 font-size: 40px;
   font-weight: bold;
 }
 
-. informacoes { 
-font-size: 40px; 
-font-weight: bold; 
-margin: 10px 0 0 0;
-}
-
-. informacoes detahalhas{
+.informacoes detahalhas{
   font-size: 40px;
 }
 
-. informacoes li:hover {
+.informacoes li:hover {
 	border-color: #C78C19;
 }
 
-. informacoes li:active {
+.informacoes li:active {
 	border-color: #088C19;	
 }
 
-. informacoes li:hover h2 {
+.informacoes li:hover h2 {
 	font-size: 34px;
 }
 
-. informacoes h2 {
+.informacoes h2 {
 	font-size: 30px;
 	font-weight: bold;
 }
 
-. informacoes-descricao {
+.informacoes-descricao {
 	font-size: 18px;
 }
 
-. informacoes-preco {
+.informacoes-preco {
 	font-size: 22px;
 	font-weight: bold;
 	margin-top: 10px;
@@ -159,3 +148,4 @@ footer {
 	color: #FFFFFF;
 	font-size: 13px;
 	margin: 20px 0 0;
+}
